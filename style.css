@@ -1,14 +1,13 @@
 body {
-    background-color: cyan; /* Added: Changes the overall page background to cyan */
+    background-color: cyan; 
 }
 
 div {
     width: 600px;
     height: 450px;
     padding: 30px;
-    margin: 30px auto; /* Changed: Centers the div horizontally and keeps 30px top/bottom margin */
+    margin: 30px auto; 
     position: relative;
-    /* Removed: 'left: 300px;' was here */
     bottom: 100px;
     border-radius: 20px;
     background: white;
@@ -17,7 +16,7 @@ div {
 h4 {
     font-size: 1.5em;
     text-align: center;
-    color: #e4afb0; /* Original color, check if this is correct as it's a very light pink */
+    color: #e4afb0;
 }
 
 input {
@@ -31,17 +30,16 @@ input {
 button {
     font-family: 'Inter', sans-serif;
     position: relative;
-    left: 216px; /* Retained from your original code */
+    left: 216px;
     width: 150px;
     height: 50px;
     border-radius: 10px;
-    color: #967c87; /* Original color, check if this is correct */
+    color: #967c87; 
 }
 
 h1 {
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 2.5em;
-    /* Missing color property here in your original snippet, assuming it's meant to be there.
-       If you want a specific color for h1, add it here. E.g., color: black; */
+    
 }
